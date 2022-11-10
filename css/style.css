@@ -125,6 +125,7 @@ header a {
   max-width: 800px;
   text-align: center;
   color: white;
+  padding: 1rem;
 }
 
 .vp-content h1 {
@@ -142,7 +143,7 @@ header a {
 /* Offer */
 
 .offer {
-  padding: 10rem 1rem;
+  padding: 10rem 1rem 10rem 1rem;
 }
 
 .offer-list {
@@ -183,10 +184,7 @@ header a {
 
 .who-content-img {
   flex: 1;
-}
-
-.who-content-img img {
-  width: 100%;
+  background: url(../images/team.jpg) center center/cover;
 }
 
 .who-content-text {
@@ -250,7 +248,7 @@ header a {
 /* contact */
 
 .contact {
-  padding: 10rem 1rem;
+  padding: 10rem 1rem 10rem 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
